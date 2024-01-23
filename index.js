@@ -21,7 +21,7 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} - rich presence started!`
                )
 const r = new Discord.RichPresence()
-    .setApplicationId('1141151296552960091') // Keep this as it is
+    .setApplicationId('1199263652847566858') // Keep this as it is
     .setType('PLAYING') // You can Set Any other like PLAYING, LISTENING, STREAMING
     .setURL('https://www.youtube.com/@Shaolinxff') //set any youtube or twitch link
     //.setState('') // set any Status
@@ -30,7 +30,7 @@ const r = new Discord.RichPresence()
     //.setDetails('Bot Music & Moderation 24/7') // set your status
         
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1196956565450793043/ab6761610000e5ebf777c8d6f705fa1e32f75b86.jpg') // add image link (form: .png, .gif).
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1199262252923092992/20240123_045936.jpg') // add image link (form: .png, .gif).
     //.setAssetsLargeText('Maiya Bot') // set image name (type any name)
     //.setAssetsSmallImage('https://media.discordapp.net/attachments/1163218197596610641/1167242257859096636/905608189402284104.gif?size=1024') // add image link (form: .png, .gif).
     //.setAssetsSmallText('Maiya ✨') // set image name (type any name)
