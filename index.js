@@ -20,7 +20,6 @@ const r = new Discord.RichPresence()
     .setApplicationId('1199263652847566858') // Keep this as it is
     .setType('PLAYING') // You can Set Any other like PLAYING, LISTENING, STREAMING
     .setURL('https://www.youtube.com/@Twqz7') //set any youtube or twitch link
-    //.setState('') // set any Status
   
     .setName('awsxu') // add your name
     .setDetails('Active in Launcher') // set your status
