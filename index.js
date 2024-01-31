@@ -23,7 +23,7 @@ const r = new Discord.RichPresence()
   
     .setName('awsxu') // add your name
     .setDetails('Active in Launcher') // set your status
-    .setState('Version 2.0')
+    .setState('Version: 0.2')
   
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1202274997348073543/4de676e43d679eae77bceacbafed86ee.png') // add image link (form: .png, .gif).
