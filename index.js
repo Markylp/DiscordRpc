@@ -21,14 +21,14 @@ const r = new Discord.RichPresence()
     .setType('PLAYING') // You can Set Any other like PLAYING, LISTENING, STREAMING
     .setURL('https://www.youtube.com/@Twqz7') //set any youtube or twitch link
   
-    .setName('awsxu') // add your name
-    .setDetails('Active in Launcher') // set your status
-    .setState('Version: 0.2')
+    .setName('Grand Theft Auto VI') // add your name
+    .setDetails('Welcome to Vice City!') // set your status
+    .setState('Playing Single Player')
   
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1202274997348073543/4de676e43d679eae77bceacbafed86ee.png') // add image link (form: .png, .gif).
-    .setAssetsLargeText('awsxu') // set image name (type any name)
-    .addButton('Discord', 'https://discord.com/invite/vtQdzGwfvB')//  // add button name and paste the link like discord server, youtube channel, etc.
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1201215920396316744/GAlNsleboAExVYE.jpg') // add image link (form: .png, .gif).
+    .setAssetsLargeText('Grand Theft Auto VI') // set image name (type any name)
+    //.addButton('Discord', 'https://discord.com/invite/vtQdzGwfvB')//  // add button name and paste the link like discord server, youtube channel, etc.
      client.user.setActivity(r);
      client.user.setPresence({ status: "online" }); // set your status (online,dnd, idle)
 })
