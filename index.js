@@ -21,14 +21,14 @@ const r = new Discord.RichPresence()
     .setType('PLAYING') // You can Set Any other like PLAYING, LISTENING, STREAMING
     .setURL('https://www.youtube.com/@Twqz7') //set any youtube or twitch link
   
-    .setName('awsxu') // add your name
-    .setDetails('Active in Launcher') // set your status
-    .setState('Version: 0.9')
+    .setName('Counter-Strike 2') // add your name
+    //.setDetails('Active in Launcher') // set your status
+    //.setState('Version: 0.9')
   
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1203379587543859312/pngegg.png') // add image link (form: .png, .gif).
-    .setAssetsLargeText('awsxu') // set image name (type any name)
-    .addButton('Discord', 'https://discord.gg/t7EPCNYdMw')//  // add button name and paste the link like discord server, youtube channel, etc.
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1194705818147373078/1204974012401197138/images.png') // add image link (form: .png, .gif).
+    .setAssetsLargeText('Counter-Strike 2') // set image name (type any name)
+    //.addButton('Discord', 'https://discord.gg/t7EPCNYdMw')//  // add button name and paste the link like discord server, youtube channel, etc.
      client.user.setActivity(r);
      client.user.setPresence({ status: "online" }); // set your status (online,dnd, idle)
 })
