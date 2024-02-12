@@ -26,7 +26,7 @@ const r = new Discord.RichPresence()
     //.setState('Version: 0.9')
   
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1194705818147373078/1206428550438199416/channels4_profile.jpg') // add image link (form: .png, .gif).
+    .setAssetsLargeImage('https://imgur.com/gallery/Vx6tVcc') // add image link (form: .png, .gif).
     .setAssetsLargeText('Cidade Alta RP') // set image name (type any name)
     .addButton('Website', 'https://cidadealtarp.com/')//  // add button name and paste the link like discord server, youtube channel, etc.
      client.user.setActivity(r);
